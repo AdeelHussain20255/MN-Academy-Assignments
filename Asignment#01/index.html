@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+</head>
+<body>
+
+    <h1>My Understanding of HTML Structure and Basic Tags</h1>
+    
+    <p>
+        HTML uses a "boxes inside boxes" structure to build webpage skeleton.
+    </p>
+
+    <h2>1. The HTML Structure</h2>
+
+
+    <ul>
+        <!-- <!DOCTYPE html>: -->
+        <li><b>DOCTYPE html:</b> <br>This tells the browser this is a modern HTML page. note it has an exclamation mark and no closing tag.</li>
+
+        <!-- <html> </html> -->
+        <li><b>html tag:</b><br>
+            This is the very outer container.<br>
+            Every single piece of code you write must sit inside the opening and the closing tags.<br>
+            If it's not inside this box, it doesn't exist to the browser.</li>
+
+        <!-- <head></head> -->
+        <li><b>head tag:</b><br>
+           This container holds information about the page that user doesn't see on the main screen.<br>
+           It holds things like character settings (charset="UTF-8") and the title tag.<br>
+           The text between the title opening and closing tags is what that appears at the very top of your screen.</li>
+
+           <!-- <body></body> -->
+        <li><b>body tag:</b><br>
+            This is the main container<br>
+            This holds everything you want to actually show up on the screen.<br>
+            Headings, paragraphs, images, and links.<br>
+    </ul>
+
+
+    <h2>2. Purpose of Basic Tags & Attributes</h2>
+
+    <p>
+        Tags act as containers, tell the browser how to treat the text they surround.<br>
+        Tags usually come in pairs, Only Opening tags (1st tag) can hold attributes to provide extra details about the content.<br>
+        Every attribute must have a name and a value
+    </p>
+
+    <ul>
+        
+        <!-- <h1></h1> -->
+        <li><strong>Heading (h1):</strong><br>
+           Acts as the main "Book Title" for the page.<br>
+           Google looks at this tag first to rank and understand what the webpage is about.<br>
+           which is why it should only be used once per page.</li>
+
+        <!-- <p></p> -->
+        <li><strong>Paragraphs (p):</strong><br>
+           It groups sentences into blocks and adds vertical spaces so the text doesn't smash together.</li>
+
+        <!-- <> </> -->
+        <li><strong>Tag Pairs:</strong><br>
+           Act like an ON/OFF switch.<br>
+           The opening tag turns a style ON, and the closing tag (/) turns it OFF so the browser knows exactly where to stop.</li>
+
+        <li><strong>Attributes:</strong><br>
+           Written inside opening tags e.g; (name="value") to provide extra details about the content between the tags</li>
+    </ul>
+
+</body>
+</html>
